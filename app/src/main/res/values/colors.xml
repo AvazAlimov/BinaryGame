@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="backGroundColor">#E0E0E0</color>
+    <color name="circleImageBackground">#F9A825</color>
+    <color name="firstGuideBackgroundColor">#FBC02D</color>
+    <color name="secondGuideBackgroundColor">#0288D1</color>
+    <color name="light_grey">#FAF5F5F5</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="dark_grey">#616161</color>
+    <color name="red">#e31515</color>
+    <color name="brown">#3e2723</color>
+</resources>

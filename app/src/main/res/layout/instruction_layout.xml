@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/intro"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/text_mid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/intro_example"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_mid" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/grey_dutton_drawable"
+                android:text="11"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:text="@string/zero"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:text="@string/zero"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:text="@string/zero"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:text="@string/zero"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/grey_dutton_drawable"
+                android:text="13"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/change"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_mid" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/green_dutton_drawable"
+                android:text="11"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:text="@string/one"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:text="@string/one"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:text="@string/zero"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:text="@string/one"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/green_dutton_drawable"
+                android:text="13"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/because"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_mid" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="8"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="4"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/blue_dutton_drawable"
+                    android:text="2"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/green_dutton_drawable"
+                    android:text="13"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="24dp"
+                    android:layout_height="26dp"
+                    android:background="@drawable/ic_arrow" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/red" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/blue_dutton_drawable"
+                    android:text="@string/zero"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/green_dutton_drawable"
+                    android:text="13"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/and"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_mid" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/green_dutton_drawable"
+                    android:text="11"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="1"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="2"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/blue_dutton_drawable"
+                    android:text="4"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="8"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="196dp"
+                    android:layout_height="2dp"
+                    android:background="@color/red" />
+
+                <View
+                    android:layout_width="24dp"
+                    android:layout_height="26dp"
+                    android:background="@drawable/ic_arrow"
+                    android:rotation="180" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/green_dutton_drawable"
+                    android:text="11"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/blue_dutton_drawable"
+                    android:text="@string/zero"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+
+                <Button
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/red_dutton_drawable"
+                    android:text="@string/one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_mid" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_drawable"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="startGame"
+        android:tag="8"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:saveEnabled="false">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:saveEnabled="false">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:saveEnabled="false">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:saveEnabled="false">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/blue_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/zero"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/red_dutton_drawable"
+                android:onClick="startGame"
+                android:tag="8"
+                android:text="@string/one"
+                android:textColor="@color/backGroundColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/hard"
+            android:textAllCaps="true"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_big"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_watch" />
+
+            <TextView
+                android:id="@+id/hard_best_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/play"
+                android:textAllCaps="true"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_mid" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
